@@ -4,7 +4,7 @@ def line(array)
     puts "The line is currently empty."
   else
     puts "The line is currently: "
-    puts array.each do |element, index|
+    array.each do |element, index|
       puts (index + 1) + element
     end
   end
