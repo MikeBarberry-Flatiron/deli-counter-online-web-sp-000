@@ -5,3 +5,4 @@ var = def method
   line.each_with_index do |element, index|
   puts "#{index + 1}. #{element} "
 end
+end
