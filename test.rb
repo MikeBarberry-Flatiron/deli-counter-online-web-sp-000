@@ -8,3 +8,5 @@ def method
 end
 
 phrase = method
+
+phrase
