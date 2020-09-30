@@ -7,4 +7,4 @@ def method
   end
 end
 
-phrase = method
+phrase == method
