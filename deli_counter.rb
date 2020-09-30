@@ -9,6 +9,7 @@ def line(array)
 #    array.each do |element, index|
 #      puts (index + 1) + element
 #    end
+    end 
   end
 end
 
