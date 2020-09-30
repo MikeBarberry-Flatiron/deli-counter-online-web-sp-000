@@ -19,4 +19,4 @@ end
 line = ["Jim", "Tim", "Stephanie", "Elton"]
 
 
-take_a_number(line, "Ada")
+puts take_a_number(line, "Ada")
