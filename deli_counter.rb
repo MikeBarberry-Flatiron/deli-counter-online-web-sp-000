@@ -11,6 +11,11 @@ def line(array)
   end
 end
 
+def take_a_number(arr, string) 
+  arr << string
+end
+
+
 line = ["Jim", "Tim", "Stephanie", "Elton"]
 
 
