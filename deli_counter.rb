@@ -6,7 +6,6 @@ def line(array)
     puts "The line is currently: " + array.each_with_index do { |element, index|
       puts "#{index + 1}: #{element}"
     }
-    end
 #    array.each do |element, index|
 #      puts (index + 1) + element
 #    end
