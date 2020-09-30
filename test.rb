@@ -1,12 +1,14 @@
-
-
+=begin
 def method
   line = ["Jim", "Tim", "Stephanie", "Elton"]
   line.each_with_index do |element, index|
   puts "#{index + 1}. #{element} "
   end
 end
+=end
 
-phrase = method
+line = ["Jim", "Tim", "Stephanie", "Elton"]
 
-puts phrase
+var = line.each_with_index do |element, index|
+puts "#{index + 1}. #{element} "
+end
