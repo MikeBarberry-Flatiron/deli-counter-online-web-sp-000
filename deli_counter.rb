@@ -6,3 +6,5 @@ def line(array)
     return "The line is currently: " + array.join(", ")
   end
 end
+
+line = ["Jim", "Tim", "Stephanie", "Elton"]
