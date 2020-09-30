@@ -12,4 +12,6 @@ end
 
 line = ["Jim", "Tim", "Stephanie", "Elton"]
 
-line(line)
+line.each do |element, index|
+  puts index + element
+end 
