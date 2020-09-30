@@ -3,7 +3,9 @@ def line(array)
   if array.length < 1
     puts "The line is currently empty."
   else
-    puts "The line is currently: "
+    puts "The line is currently: " + line.each_with_index do |element, index|
+      puts "#{index + 1}: #{element}"
+    end
 #    array.each do |element, index|
 #      puts (index + 1) + element
 #    end
@@ -12,6 +14,5 @@ end
 
 line = ["Jim", "Tim", "Stephanie", "Elton"]
 
-line.each_with_index do |element, index|
-  puts "#{index + 1} #{element}"
-end
+
+line(line)
