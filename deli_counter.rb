@@ -18,6 +18,7 @@ end
 
 def now_serving(arr)
   puts "Currently serving #{arr[0]}."
+  arr.shift 
 end
 
 line = ["Jim", "Tim", "Stephanie", "Elton"]
