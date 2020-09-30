@@ -21,6 +21,7 @@ def now_serving(arr)
   arr.shift
   if arr.length == 0
     puts "There is nobody waiting to be served."
+  end 
 end
 
 line = ["Jim", "Tim", "Stephanie", "Elton"]
