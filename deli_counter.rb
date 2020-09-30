@@ -4,4 +4,5 @@ def line(array)
     return "The line is currently empty."
   else
     return array.join(", ")
+  end 
 end
