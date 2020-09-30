@@ -8,3 +8,5 @@ def line(array)
 end
 
 line = ["Jim", "Tim", "Stephanie", "Elton"]
+
+line(line)
