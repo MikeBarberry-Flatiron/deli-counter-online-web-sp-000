@@ -9,4 +9,4 @@ end
 
 phrase = method
 
-phrase
+puts phrase
