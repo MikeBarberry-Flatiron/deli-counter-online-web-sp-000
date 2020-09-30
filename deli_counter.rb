@@ -10,5 +10,3 @@ end
 line = ["Jim", "Tim", "Stephanie", "Elton"]
 
 line(line)
-
-puts line.index
