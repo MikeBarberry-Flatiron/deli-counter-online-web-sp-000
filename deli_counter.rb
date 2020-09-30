@@ -5,7 +5,7 @@ def line(array)
   else
     puts "The line is currently: "
     array.each_with_index do |element, index|
-      puts "#{index + 1}: #{element}"
+      print "#{index + 1}: #{element}"
 #    array.each do |element, index|
 #      puts (index + 1) + element
 #    end
