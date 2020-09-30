@@ -7,6 +7,4 @@ def method
   end
 end
 
- phrase = "WTF?!"
-
-puts phrase
+phrase = method
