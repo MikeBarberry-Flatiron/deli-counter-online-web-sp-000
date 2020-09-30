@@ -13,7 +13,7 @@ end
 
 def take_a_number(arr, string)
   arr << string
-  puts "Welcome, #{string}. You are number #{arr.length + 1} in line."
+  puts "Welcome, #{string}. You are number #{arr.length} in line."
 end
 
 
