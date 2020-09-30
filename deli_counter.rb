@@ -5,6 +5,7 @@ def line(array)
   else
     puts "The line is currently: " + array.each do |element|
       puts (a.find_index(element) + 1) + element
+    end
   end
 end
 
