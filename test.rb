@@ -8,5 +8,3 @@ def method
 end
 
 var = method
-
-var 
