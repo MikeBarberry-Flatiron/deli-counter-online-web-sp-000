@@ -7,4 +7,4 @@ def method
   end
 end
 
-method 
+ phrase = "WTF?!"
