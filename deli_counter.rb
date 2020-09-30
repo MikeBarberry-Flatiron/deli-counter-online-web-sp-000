@@ -13,5 +13,5 @@ end
 line = ["Jim", "Tim", "Stephanie", "Elton"]
 
 line.each_with_index do |element, index|
-  puts "#{index} #{element}"
+  puts "#{index + 1} #{element}"
 end
