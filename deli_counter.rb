@@ -3,10 +3,11 @@ def line(array)
   if array.length < 1
     puts "The line is currently empty."
   else
-    puts ("The line is currently: ") + (
-    array.each_with_index do |element, index|
-      print "#{index + 1}. #{element} "
-    end)
+    current_line = "The line is currently:"
+    array.each.with_index(1) do |element, index|
+      current_line << " #{index + 1}. #{element}"
+    end
+    puts current_line
   end
 end
 
