@@ -7,6 +7,6 @@ def method
   end
 end
 
-var = method 
+var = method
 
 var 
