@@ -18,7 +18,9 @@ end
 
 def now_serving(arr)
   puts "Currently serving #{arr[0]}."
-  arr.shift 
+  arr.shift
+  if arr.length == 0
+    puts "There is nobody waiting to be served."
 end
 
 line = ["Jim", "Tim", "Stephanie", "Elton"]
