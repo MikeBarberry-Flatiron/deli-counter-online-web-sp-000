@@ -6,3 +6,5 @@ def method
   puts "#{index + 1}. #{element} "
   end
 end
+
+method 
