@@ -12,7 +12,8 @@ def line(array)
 end
 
 def take_a_number(arr, string)
-  arr << string
+  deli_line = arr << string
+  puts "Welcome, #{string}. You are number #{string} in line."
 end
 
 
