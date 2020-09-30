@@ -17,11 +17,11 @@ def take_a_number(arr, string)
 end
 
 def now_serving(arr)
-  puts "Currently serving #{arr[0]}."
-  arr.shift
   if arr.length == 0
     puts "There is nobody waiting to be served."
   end 
+  puts "Currently serving #{arr[0]}."
+  arr.shift
 end
 
 line = ["Jim", "Tim", "Stephanie", "Elton"]
